@@ -15,6 +15,32 @@ body{
   text-align: center;
   color: var(--light-lavender);
   border-radius: 0 0 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-card > h1{
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.circle_score-area {
+  background: linear-gradient(var(--violet-blue-circle), var(--persian-blue-circle));
+  width: 9rem;
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+.circle_score{
+  font-size: 3rem;
+  color: var(--white);
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 /* Result card section Ends */
 

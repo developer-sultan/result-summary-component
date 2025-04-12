@@ -1,0 +1,25 @@
+body{
+  background: var(--white);
+}
+
+/* Result Summary Section */
+#result-summary-container{
+  max-width: 375px;
+  max-height: 810px;
+}
+
+/* Result card section Starts */
+.result-card{
+  background: linear-gradient(var(--light-slate-blue-bg), var(--light-royal-blue-bg));
+  padding: 1rem 2rem;
+  text-align: center;
+  color: var(--light-lavender);
+  border-radius: 0 0 2rem 2rem;
+}
+/* Result card section Ends */
+
+/* Summary card section Starts */
+.summary-card{
+  padding: 1rem 2rem;
+}
+/* Summary card section Ends */

@@ -1,0 +1,10 @@
+body{
+  background: var(--white);
+}
+#result-summary-container{
+  max-width: 375px;
+  max-height: 810px;
+}
+.result-card{
+  background: linear-gradient(var(--light-slate-blue-bg), var(--light-royal-blue-bg));
+}

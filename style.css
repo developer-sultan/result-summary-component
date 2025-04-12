@@ -54,5 +54,29 @@
 /* Summary card section Starts */
 .summary-card{
   padding: 1rem 2rem;
+  color: var(--dark-gray-blue)
+}
+.summary-card > h2{
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.summary-card_stat{
+  background: rgb(111, 192, 230);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.8rem;
+}
+.summary-card_stat > div:first-child{
+  display: flex;
+  justify-content: space-between;
+}
+.summary-card_stat > div:last-child > span:first-child{
+  color: red;
+}
+.summary-card_stat > div > img{
+  margin-right: 0.5rem;
 }
 /* Summary card section Ends */

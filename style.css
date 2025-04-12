@@ -111,5 +111,14 @@
 .summary-card_stat-visual > div:first-child > span{
   color: var(--cobalt-blue);
 }
-
+.summary-card > button {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--dark-gray-blue);
+  color:var(--white);
+  border-radius: 2rem;
+  border: none;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
 /* Summary card section Ends */

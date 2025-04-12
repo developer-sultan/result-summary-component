@@ -43,6 +43,7 @@
 
 
 body{
+    background: var(--white);
     font-family: "hankenGrotesk-Medium";
     font-weight: 400;
     font-size: 18px;

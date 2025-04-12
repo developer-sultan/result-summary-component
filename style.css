@@ -54,15 +54,5 @@
 /* Summary card section Starts */
 .summary-card{
   padding: 1rem 2rem;
-  color: var(--dark-gray-blue);
 }
-.summary-card h2{
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-.summary-card_stat{
-  display: flex;
-  justify-content: space-between;
-}
-
 /* Summary card section Ends */

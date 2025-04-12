@@ -53,7 +53,7 @@
 
 /* Summary card section Starts */
 .summary-card{
-  padding: 1rem 2rem;
+  padding: 1rem 1.7rem;
   color: var(--dark-gray-blue)
 }
 .summary-card > h2{
@@ -64,19 +64,52 @@
 .summary-card_stat{
   background: rgb(111, 192, 230);
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 0.8rem;
   display: flex;
   justify-content: space-between;
   border-radius: 0.8rem;
 }
+
 .summary-card_stat > div:first-child{
   display: flex;
   justify-content: space-between;
-}
+} 
 .summary-card_stat > div:last-child > span:first-child{
-  color: red;
+  font-weight: bold;
+}
+.summary-card_stat > div:last-child > span:last-child{
+  color: var(--light-lavender);
+  font-weight: 500;
 }
 .summary-card_stat > div > img{
   margin-right: 0.5rem;
 }
+
+
+/* Summary card stat modifiers */
+.summary-card_stat-reaction{
+  background-color: hsla(0, 100%, 69%, 0.1);
+}
+.summary-card_stat-reaction > div:first-child > span{
+  color: var(--light-red)
+}
+.summary-card_stat-memory{
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+.summary-card_stat-memory > div:first-child > span{
+  color: var(--orange-yellow);
+}
+.summary-card_stat-verbal{
+  background-color: hsla(166, 100%, 37%,0.1);
+}
+.summary-card_stat-verbal > div:first-child > span{
+  color: var(--green-teal)
+}
+.summary-card_stat-visual{
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+.summary-card_stat-visual > div:first-child > span{
+  color: var(--cobalt-blue);
+}
+
 /* Summary card section Ends */

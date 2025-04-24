@@ -76,6 +76,7 @@
 } 
 .summary-card_stat > div:last-child > span:first-child{
   font-weight: bold;
+  font-size: 16px;
 }
 .summary-card_stat > div:last-child > span:last-child{
   color: var(--light-lavender);
@@ -120,5 +121,12 @@
   border: none;
   font-size: 1.2rem;
   margin-top: 0.5rem;
+  margin-bottom: 4rem;
 }
 /* Summary card section Ends */
+
+/* Footer Starts */
+footer{
+  margin-top: 2rem;
+}
+/* Footer Ends */

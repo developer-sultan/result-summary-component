@@ -1,0 +1,53 @@
+@media only screen and (min-width: 700px) {
+    body{
+        padding: 8rem;
+        background-color: var(--pale-blue);
+    }
+    #result-summary-container{
+        width: 480px;
+        height: 340px;
+        display: flex;
+        flex-direction: row;
+        background-color: var(--white);
+        border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    /* Result card Area */
+    .result-card{
+        flex-basis: 50%;
+        height: 100%;
+        box-shadow: none;
+        border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    }
+    .result-card > h1{
+        padding: 1.5rem 0 0 0;
+    }
+    .circle_score-area{
+        padding: 2rem;
+    }
+    .result-card_decription{
+        padding-bottom: 2rem;
+        font-size: 15px;
+    }
+
+    .result-card_label{
+        font-size: 1.5rem;
+    }
+
+    /* Summary card Area */
+    .summary-card{
+        flex-basis: 50%;
+        height: 100%;
+    }
+    .summary-card > h2{
+        padding-top: 0.5rem;
+    }
+    .summary-card_stat{
+        padding: 0.5rem;
+        margin-bottom: 0.7rem;
+    }
+    .summary-card > button{
+        padding: 0.5rem;
+        margin-top: 0.8rem;
+    }
+}

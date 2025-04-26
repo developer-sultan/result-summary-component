@@ -1,8 +1,8 @@
 
 /* Result Summary Section */
 #result-summary-container{
-  max-width: 375px;
-  max-height: 810px;
+  width: 375px;
+  height: 810px;
 }
 
 /* Result card section Starts */
@@ -26,25 +26,24 @@
 }
 .circle_score-area {
   background: linear-gradient(var(--violet-blue-circle), var(--persian-blue-circle));
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.8rem;
 }
 .circle_score{
   font-size: 3rem;
   color: var(--white);
   font-weight: bold;
-  margin-bottom: 1rem;
 }
 .result-card_label{
   font-size: 1.7rem;
   color: var(--white);
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
 }
 .result-card_decription{
   padding-bottom: 1.5rem;
@@ -64,7 +63,7 @@
 .summary-card_stat{
   background: rgb(111, 192, 230);
   margin-bottom: 1rem;
-  padding: 0.8rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   border-radius: 0.8rem;

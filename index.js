@@ -1,12 +1,24 @@
-const summaryCard = document.querySelector(".summary-stat_container");
+/*
+===============================
+Summary stats dynamic function
+===============================
+*/
 
-summaryCard.innerHTML = ` <div class="summary-card_stat summary-card_stat-reaction">
+const summaryStats = () => {
+    const statsContainer = document.querySelector(".summary-stat_container");
+    statsContainer.innerHTML = data.map((stat) => {
+        return `<div class="summary-card_stat ">
         <div>
-          <img src="assets/images/icon-reaction.svg" alt="No-icon">
-          <span>text</span>
+          <img src="${stat.icon}">
+          <span>${stat.category}</span>
         </div>
         <div>
-          <span>25&nbsp;</span>
+          <span>${stat.score}</span>
           <span>/ 100</span>
         </div>
        </div>`;
+
+    }).join("");
+}
+
+summaryStats();

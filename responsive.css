@@ -27,7 +27,7 @@
     }
     .result-card_decription{
         padding-bottom: 2rem;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .result-card_label{
@@ -49,5 +49,10 @@
     .summary-card > button{
         padding: 0.5rem;
         margin-top: 0.8rem;
+    }
+
+    /* Button */
+    .summary-card > button{
+        font-size: 0.8rem;
     }
 }

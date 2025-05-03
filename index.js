@@ -7,7 +7,7 @@ Summary stats dynamic function
 const summaryStats = () => {
     const statsContainer = document.querySelector(".summary-stat_container");
     statsContainer.innerHTML = data.map((stat) => {
-        return `<div class="summary-card_stat ">
+        return `<div class="summary-card_stat">
         <div>
           <img src="${stat.icon}">
           <span>${stat.category}</span>
